@@ -1,0 +1,39 @@
+#player {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  transition: .1s;
+}
+#attack {
+  position: absolute;
+  top: 200px;
+}
+#enemy {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+  }
+* {user-select:none;}
+  #playerhp {
+position:absolute;
+font-size:50px;
+top:60px;
+
+  }
+  
+  #enemyhp {
+    position:absolute;
+    font-size:50px;
+    left:300px;
+    top:60px;
+      }
+      #info {font-size:50px;
+    position:absolute;
+    top:200px;
+    left:200px;
+    
+    }
